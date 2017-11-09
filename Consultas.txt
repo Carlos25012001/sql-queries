@@ -1,0 +1,19 @@
++use biblioteca_cetis108
+# DML -> Data Manipulation
+# consulta que e devuelva todos los registros de la tabla usuarios
+SELECT * FROM usuarios;
+
+# consulta que me devuelva todos los regitros donde el id sea mayor que 10
+SELECT * FROM usuarios
+WHERE id > 10;
+# consulta que devuelva todos los registros con el di entre 10 y 50
+SELECT FROM usuarios
+WHERE id > 10 AND id < 50;
+
+# consulta que devuelva todos los registros con valores opuestos a la anterior consulta
+SELECT * FROM usuarios
+WHERE id <= 10 OR id >= 50;
+
+# consulta para vallidar que el usuario y la contrase�a dadas son conrrectos y existen en la tabla usuarios (debe regresar id, nombre, apellidos)
+SELECT id, nombre, apellidos FROM usuarios
+WHERE usernam = 'willyrex' and password = '777';
