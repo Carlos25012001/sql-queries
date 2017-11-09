@@ -1,0 +1,9 @@
+@ -0,0 +1,3 @@
+# Consulta que me devuelva cuantas editoriles existen
+SELECT * FROM editoriles;
+@ -0,0 +1,3 @@
+# Consulta que me devuelva el id del Pais Mexico.
+SELECT * FROM paises
+WHERE Mexico id;@ -0,0 +1,3 @@
+# Consulta que me devuelva todos los registros de la tabla paises
+SELECT * FROM paises;
